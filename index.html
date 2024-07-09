@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>File Tracker</h1>
+    <input type="text" id="searchInput" placeholder="Search by file name or code...">
+    <form id="fileForm">
+        <label for="fileCode">File Code:</label>
+        <input type="text" id="fileCode" required>
+        <label for="fileName">File Name:</label>
+        <input type="text" id="fileName" required>
+        <button type="submit">Add File</button>
+    </form>
+    <div id="fileList"></div>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
+
+</body>
+</html>
